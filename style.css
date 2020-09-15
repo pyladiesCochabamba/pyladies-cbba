@@ -1,24 +1,30 @@
 @charset "UTF-8";
 
-*{
-	margin:0;
-	padding:0;
-	border:0;
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
 }
 
-body{
+body {
 	background-color: #fff;
 	color: #333;
 	font-family: 'Rubik', sans-serif;
 	font-size: 20px;
 }
 
-a, a:visited {
+a,
+a:visited {
 	color: #f13a59;
 	text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	margin: 50px 0px 50px 0px;
 	font-family: 'Old Standard TT', serif;
 	font-size: 48px;
@@ -29,8 +35,8 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 25px;
 }
 
-#top{
-	height:25px;
+#top {
+	height: 25px;
 }
 
 p {
@@ -38,9 +44,9 @@ p {
 }
 
 /* --- images ------------- */
-#logo{
-	margin-top:15%;
-	text-decoration:none;
+#logo {
+	margin-top: 15%;
+	text-decoration: none;
 }
 
 /* text logo */
@@ -67,7 +73,7 @@ p {
 }
 
 @media (min-width: 500px) {
-	#floating-logo  {
+	#floating-logo {
 		width: 400px;
 		height: 170px;
 		top: 25%;
@@ -77,7 +83,7 @@ p {
 }
 
 @media (min-width: 750px) {
-	#floating-logo  {
+	#floating-logo {
 		width: 500px;
 		height: 250px;
 		top: 30%;
@@ -100,21 +106,21 @@ p {
 } */
 
 
-#logoimage{
-	width:27px;
-	padding-right:10px;
-	float:left;
+#logoimage {
+	width: 27px;
+	padding-right: 10px;
+	float: left;
 }
 
-#logotitle{
-	font-family:'Josefin Sans', Helvetica, sans-serif;
+#logotitle {
+	font-family: 'Josefin Sans', Helvetica, sans-serif;
 	font-weight: bold;
-	font-size:305%;
+	font-size: 305%;
 }
 
-#logotitle a{
-	color:#2d2d2d;
-	text-decoration:none;
+#logotitle a {
+	color: #2d2d2d;
+	text-decoration: none;
 }
 
 .geek {
@@ -129,7 +135,7 @@ p {
 }
 
 @media (min-width: 500px) {
-	.geek  {
+	.geek {
 		margin-bottom: 15px;
 	}
 }
@@ -168,8 +174,11 @@ nav.navbar {
 	cursor: pointer;
 }
 
-h1,h2,h3,h4 {
-	font-size:36px;
+h1,
+h2,
+h3,
+h4 {
+	font-size: 36px;
 }
 
 .navbar a {
@@ -177,8 +186,8 @@ h1,h2,h3,h4 {
 }
 
 .section {
-	padding-top:25px;
-	padding-bottom:25px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 
 .row {
@@ -213,7 +222,7 @@ h1,h2,h3,h4 {
 .skyline {
 	background-image: url('images/skyline.jpg');
 	height: 450px;
-	background-size:cover;
+	background-size: cover;
 }
 
 .aurimas {
@@ -261,8 +270,8 @@ h1,h2,h3,h4 {
 
 .organizer {
 	height: auto;
-	flex-grow:0;
-	flex-shrink:0;
+	flex-grow: 0;
+	flex-shrink: 0;
 	max-height: 400px;
 	align-self: auto;
 	justify-self: initial;
@@ -300,6 +309,7 @@ h1,h2,h3,h4 {
 		width: 55%;
 		text-align: left;
 	}
+
 	.bio .name {
 		margin-top: inherit;
 	}
@@ -319,8 +329,9 @@ span.fa {
 	margin-top: 35px;
 }
 
-.resource-link p, .resource-link:hover {
-	color: rgba(0,0,0,.7);
+.resource-link p,
+.resource-link:hover {
+	color: rgba(0, 0, 0, .7);
 	text-transform: none;
 	text-decoration: none;
 }
@@ -329,10 +340,10 @@ span.fa {
 	margin-bottom: 30px;
 	background: #fafafa;
 	border-radius: 10px;
-    padding: 25px;
-    height: 320px;
+	padding: 25px;
+	height: 320px;
 	width: 320px;
-	box-shadow: 0 4px 10px 0 rgba(0,0,0,0.1), 0 4px 20px 0 rgba(0,0,0,0.1);
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 4px 20px 0 rgba(0, 0, 0, 0.1);
 	display: block;
 	text-align: left;
 	font-size: 16px;
@@ -376,7 +387,8 @@ span.fa {
 }
 
 .small-geek {
-	background-image: url('./images/pylady_geek.png');
+	/* background-image: url('./images/pylady_geek.png'); */
+	background-image: url('./images/Isotipo_geek.png');
 	background-size: contain;
 	width: 40px;
 	height: 40px;
